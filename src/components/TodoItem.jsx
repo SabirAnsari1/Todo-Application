@@ -13,11 +13,7 @@ import { FaTrash } from "react-icons/fa";
 
 const TodoItem = ({ id, title, status, deleteTodo, updateTodo }) => {
   return (
-    <Grid
-      templateColumns="repeat(3, 1fr)"
-      justifyContent="space-between"
-      key={id}
-    >
+    <Grid templateColumns="repeat(3, 1fr)" justifyContent="space-between" key={id}>
       <Text>{title}</Text>
       <Center>
         {status ? (
@@ -28,11 +24,7 @@ const TodoItem = ({ id, title, status, deleteTodo, updateTodo }) => {
       </Center>
       <InputGroup>
         <InputRightElement>
-          <IconButton
-            icon={<FaTrash />}
-            isRound="true"
-            onClick={() => deleteTodo(id)}
-          />
+          <IconButton icon={<FaTrash />} isRound="true" onClick={() => deleteTodo(id)} />
         </InputRightElement>
       </InputGroup>
     </Grid>
