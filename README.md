@@ -1,10 +1,20 @@
 # Todo-Application
 
 ## Description
-Welcome to my project! This is a Todo Application made in _React_ and _Chakra-UI_. It allows users to quickly and easily add, delete, and update events and tasks. With this App, users can effortlessly manage their tasks and events, helping them stay organized and on top of their to-do lists. I have used local storage to store todo. I hope you enjoy and I look forward to your contributions!
+Welcome to my project! This is a Todo Application made in _React_ and _Chakra-UI_. It allows users to quickly and easily add, delete, and update events and tasks. With this App, users can effortlessly manage their tasks and events, helping them stay organized and on top of their to-do lists. I have used local storage to store todo. I hope you enjoy and I look forward to your contributions.
+
+## Tech Stack
+In this project, I have utilized the following technologies:-
+
+1. HTML
+2. CSS
+3. JavaScript
+4. React.js
+5. Local-storage
+6. Chakra-UI
 
 ## Contributing
-I welcome any and all contributions! Here are some ways you can get started:
+I welcome any and all contributions! Here are some ways you can get started:-
 
 1. Report bugs: If you encounter any bugs, please let us know. Open up an issue and let us know the problem.
 2. Contribute code: If you are a developer and want to contribute, follow the instructions below to get started!
